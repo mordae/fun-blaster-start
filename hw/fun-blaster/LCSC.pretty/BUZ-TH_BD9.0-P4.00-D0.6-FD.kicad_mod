@@ -1,0 +1,41 @@
+(footprint "BUZ-TH_BD9.0-P4.00-D0.6-FD" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "Ref**" (at 0 -6.35) (layer "F.SilkS")
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 14152a35-81d3-480c-b66e-20b828972df3)
+  )
+  (fp_text value "+" (at -4.04 0.989) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.203)) (justify left))
+    (tstamp 2df33e84-ffd8-4d17-a445-ecb2ac9e1c21)
+  )
+  (fp_circle (center 0 0) (end 0.741 0)
+    (stroke (width 0.254) (type solid)) (fill none) (layer "F.SilkS") (tstamp f7273890-3e82-44aa-b30a-a96748e69da6))
+  (fp_circle (center 0 0) (end 4.5 0)
+    (stroke (width 0.254) (type solid)) (fill none) (layer "F.SilkS") (tstamp 8baade90-b141-41f3-8699-1070ca3596b6))
+  (fp_poly
+    (pts
+      (xy -3.9 -1.995)
+      (xy -1.76 -1.995)
+      (xy -1.76 -1.705)
+      (xy -3.9 -1.705)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Cmts.User") (tstamp 49e6e9f6-ea36-481d-bcab-b1c6f091cbdd))
+  (fp_poly
+    (pts
+      (xy -2.975 -0.779)
+      (xy -2.975 -2.919)
+      (xy -2.685 -2.919)
+      (xy -2.685 -0.779)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Cmts.User") (tstamp 6ed2d83a-370f-4133-bc42-db9b49758b57))
+  (pad "1" thru_hole circle (at -2 0) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 680ee2e7-bcec-4bf5-ad5d-4a7a47db4ac1))
+  (pad "2" thru_hole circle (at 2 0) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 2efa96a5-282d-4441-967c-35c7d98f26f6))
+  (model "LCSC.3dshapes/BUZ-TH_BD9.0-P4.00-D0.6-FD.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 -90))
+  )
+)
